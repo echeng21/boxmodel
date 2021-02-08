@@ -1,0 +1,177 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font: 12px Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #061C37;
+	background: #1E4297;
+	background-repeat:repeat-x;
+}
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:left;}
+
+#container
+{
+  display: block; 
+  height:auto;
+  position: relative; 
+  width: 940px;
+}
+
+#mainpic h1
+{
+	position:absolute;
+text-align:right;
+font-size:30px;
+padding: 20px;
+border: 20px solid gold;
+margin: 10px;
+color:#FFF;	
+left:550px;
+top:100px;
+}
+
+
+#mainpic h2
+{
+position:absolute;
+text-align:right;
+padding: 20px;
+border: 20px solid silver;
+margin: 100px;
+color:#E1E7F7;	
+left:550px;
+top:130px;
+}
+
+#mainpic
+{
+background-image:url(https://www.html.am/templates/downloads/bryantsmith/nightbeach/images/main.jpg);
+background-repeat:no-repeat;
+padding: 20px; 
+border: 40px solid orange;
+margin: 70px;
+box-sizing: border-box;
+width:900px;
+height:402px;	
+}
+
+
+
+.lightblue
+{
+color:#B1C6FC	
+	
+}
+
+
+
+
+#menu
+{
+background-image:url(https://www.html.am/templates/downloads/bryantsmith/nightbeach/images/menu.png);
+background-repeat:no-repeat;
+width:940px;
+height:50px;
+padding: 25px;
+border: 30px double green;
+margin: 90px;
+box-sizing: border-box;
+float:left;
+clear:both;
+}
+
+#content
+{
+width:880px;
+height:auto;
+background-color:#FFF;
+padding: 40px;
+border: 50px solid blue;
+margin: 95px;
+box-sizing: border-box;
+}
+
+#footer
+{
+width:inherit;
+height:auto;
+padding: 35px;
+border: 20px dotted violet;
+margin: 100px;
+box-sizing: border-box;
+
+}
+
+#footer h3 a,#footer h3 a:visited
+{
+display:inline;
+text-align:center;
+font-size:12px;
+padding: 20px;
+border: 20px dotted yellow;
+margin: 40px;
+text-decoration:none;
+color:#7198E1;
+}
+
+
+#menu ul {
+	list-style: none;
+	padding: 0px;
+	margin-left:auto;
+	width:900px;
+}
+
+#menu li {
+	list-style: none;
+	padding: 0px;	
+	display: inline; 
+	
+}
+
+#menu a {
+	float: left;
+	width: 150px;
+	height: 40px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	padding-top: 17px;
+    font-size: 15px;
+    line-height: 1px;
+}
+
+#menu a:hover{
+	color:#BAD1F3;
+	background: url(images/menuhov.jpg) no-repeat;
+}
+
+#content p
+{
+    padding: 20px;
+    border: 20px dotted black;
+    margin: 50px;
+}
+#content h3
+{
+    padding: 20px;
+    border: 20px double brown;
+    margin: 60px;
+}
+#content h2
+{
+    padding: 20px;
+    border: 20px solid greenyellow;
+    margin: 40px;
+}
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
